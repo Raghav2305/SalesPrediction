@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/styles.css') }}">
+</head>
+<body class="mainbody">
+
+        <img src="../images/iphone.png" alt="yearly sales">
+
+    <div id="form">
+        <form action="/predict" method="POST">
+
+            <h1>IPHONE SALES PREDICTION</h1>
+
+            <P>ENTER YOUR AGE: <input type="number" name="age"></P>
+            <p>ENTER YOUR GENDER (1 - Male, 0 - Female): <input type="number" name="gender"></p>
+            <p>ENTER YOUR SALARY: <input type="number" name="salary"></p>
+
+            <input type='submit' id="sub">
+
+            
+
+
+        </form>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,10 @@
+.mainbody{
+    background-color: red
+}
+
+#form{
+    text-align: center;
+    font-family: cursive;
+    font-weight: 900;
+    padding: 10% 15%;
+}
