@@ -1,5 +1,5 @@
 .mainbody{
-    background-color: red
+    background-color: lightcyan
 }
 
 #form{
@@ -7,4 +7,5 @@
     font-family: cursive;
     font-weight: 900;
     padding: 10% 15%;
+    color: red;
 }

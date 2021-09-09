@@ -18,9 +18,9 @@ def predict():
     
     final_features = np.asarray(my_features).reshape(1,-1)
     preds = model.predict(final_features)
-    output = preds[0]
+    
 
-    return render_template('display.html', output=output)
+    return render_template('display.html',preds = preds)
 
 
 if __name__ == '__main__':
